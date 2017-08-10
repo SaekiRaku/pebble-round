@@ -1,0 +1,31 @@
+{
+    "name": "round",
+    "author": "佐伯楽",
+    "version": "1.0.0",
+    "keywords": ["pebble-app"],
+    "private": true,
+    "dependencies": {},
+    "pebble": {
+        "main": {
+            "rockyjs": "src/rocky/index.js",
+            "pkjs": "src/pkjs/index.js"
+        },
+        "displayName": "round",
+        "uuid": "d5dbd948-0232-4751-a6d7-74afc52b2dfe",
+        "projectType": "rocky",
+        "sdkVersion": "3",
+        "enableMultiJS": true,
+        "watchapp": {
+            "watchface": true
+        },
+        "resources": {
+            "media": []
+        },
+        "targetPlatforms": [
+            "chalk"
+        ],
+        "capabilities": [
+            "configurable"
+        ]
+    }
+}

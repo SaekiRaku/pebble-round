@@ -1,0 +1,40 @@
+{
+    "targetPlatforms": [
+        "chalk"
+    ], 
+    "projectType": "rocky", 
+    "messageKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "companyName": "\u4f50\u4f2f\u697d", 
+    "enableMultiJS": true, 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "versionLabel": "1.0", 
+    "longName": "round", 
+    "shortName": "round", 
+    "name": "round", 
+    "sdkVersion": "3", 
+    "displayName": "round", 
+    "uuid": "d5dbd948-0232-4751-a6d7-74afc52b2dfe", 
+    "appKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "capabilities": [
+        "configurable"
+    ], 
+    "main": {
+        "rockyjs": "src/rocky/index.js", 
+        "pkjs": "src/pkjs/index.js"
+    }, 
+    "resources": {
+        "media": []
+    }
+}
